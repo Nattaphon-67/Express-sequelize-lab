@@ -8,6 +8,11 @@ app.use(express.json());
 
 connectDB();
 
+app.get("/", (req, res) => {
+  return res.status(200).json({ message: "Welcome to the Express-Sequelize API" });
+  send("Welcome to the Express-Sequelize API");
+});
+
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
