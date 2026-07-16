@@ -1,0 +1,23 @@
+{
+  "name": "express-sequelize-lab",
+  "version": "1.0.0",
+  "description": "This is a RESTful API for product management using express and sequelize",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "T.M Opera O.",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "pg": "^8.2.4",
+    "sequelize": "^6.37.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
